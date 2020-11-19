@@ -1,0 +1,27 @@
+
+
+ <main class="message">
+      <div class="details">
+        <div class="title"><%=@email.object%></div>
+        <div class="header">
+          <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar1.png">
+          <div class="from">
+            <span>Chris</span>
+            chris@yopmail.com
+          </div>
+          <div class="date">Today, <b>3:47 PM</b></div>
+        </div>
+        <div class="content">
+          <p>
+           <%=@email.body%>
+           </p>
+      
+        </div>
+          </div>
+          <div class="form-group">
+            <%= link_to "Supprimer", email_path(@email.id), class: "btn btn-danger btn-block", method: "DELETE", remote: true %>
+            <%= button_to "Marquer comme non lus", {controller: "emails", action: "create"}, class: "btn btn-secondary btn-block", method: "POST", remote: true %>
+          </div>
+        </form>
+      </div>
+    </main>
