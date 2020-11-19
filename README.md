@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a little RoR application.
 
-Things you may want to cover:
+A dashboard/inbox Gmail Style.
 
-* Ruby version
+* Ruby version 2.5.1 (old old times)
 
-* System dependencies
+* Rails my ass
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Pentium 90 Mhz, 2Mo Ram, HDD 300mo, FloppyDisc.
 
 * ...
+
+
+style="color: green"
