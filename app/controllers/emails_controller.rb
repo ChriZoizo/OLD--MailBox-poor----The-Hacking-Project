@@ -5,8 +5,11 @@ class EmailsController < ApplicationController
   end
 
 def show
+  @emails = Email.all
 @email = Email.find(params[:id])
 @last = Email.last
+@count = @emails.count
+changestatus()
 respond_to do |format|
   format.html { redirect_to root_path }
   format.js { }
@@ -17,7 +20,7 @@ end
 require 'faker'
 def create
 @email = Email.all
-  Email.create!(object: Faker::Lorem.word, body: Faker::Lorem.paragraph)
+  Email.create!(object: Faker::Lorem.word, body: Faker::Lorem.paragraph, status: false)
   respond_to do |format|
     format.html { redirect_to root_path }
     format.js { }
@@ -25,6 +28,9 @@ def create
 end
 
 def replace
+
+  @emails = Email.all
+@count = @emails.count
 @last = Email.last
 end
 

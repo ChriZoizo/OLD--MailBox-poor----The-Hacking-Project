@@ -1,3 +1,4 @@
+ <%if @count != 0 %>
  <main class="message">
       <div class="details" id="test">
         <div class="title"><%=@last.object%></div>
@@ -18,8 +19,12 @@
           </div>
           <div class="form-group">
             <%= link_to "Supprimer", email_path(@last.id), class: "btn btn-danger btn-block", method: :delete, remote: true %>
-            <%= button_to "Marquer comme non lus", {controller: "emails", action: "create"}, class: "btn btn-secondary btn-block", method: "POST", remote: true %>
+            <%= button_to "Non lus",@email, class: "btn btn-secondary btn-block", method: :put, remote: true%>
           </div>
         </form>
       </div>
     </main>
+  
+    <%else%>
+    
+    <%end%>
