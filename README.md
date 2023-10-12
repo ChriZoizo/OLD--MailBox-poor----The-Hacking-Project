@@ -1,6 +1,6 @@
 # README
 
-This is a little RoR application.
+This is a little Ruby On Rails application.
 
 A dashboard/inbox Gmail Style.
 
@@ -13,4 +13,4 @@ A dashboard/inbox Gmail Style.
 * ...
 
 
-style="color: green"
+Plus serieusement, c'est censé etre une Todolist, mais c'est tellement nul... 
