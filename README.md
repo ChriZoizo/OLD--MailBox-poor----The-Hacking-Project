@@ -1,16 +1,21 @@
-# README
+# MailBox
+
+This is a project done as part of The Hacking Project courses.
+
+This project is a dashboard/inbox Gmail Style Application. However, being one of the very first projects and having been done in a total rush, it is of very poor quality.
+
+Framework: Ruby on Rails
+
+Utilizing Ajax, jQuery, and thus JavaScript, MySQL.
 
 This is a little Ruby On Rails application.
 
-A dashboard/inbox Gmail Style.
+
 
 * Ruby version 2.5.1 (old old times)
 
 * Rails my ass
 
-* Pentium 90 Mhz, 2Mo Ram, HDD 300mo, FloppyDisc.
+* Specs min : Pentium 90 Mhz, 4Mo Ram, HDD 300mo, FloppyDisc.
 
 * ...
-
-
-Plus serieusement, c'est censé etre une Todolist, mais c'est tellement nul... 
